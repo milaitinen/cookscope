@@ -13,9 +13,9 @@ export const NavigationBar = () => {
 
 	return (
 		<Navbar
-			className="d-flex justify-content-between"
+			className="d-flex justify-content-between sticky-top"
 			style={{ backgroundColor: 'white', borderBottom: '1px solid #E75B00' }}
-			sticky="top"
+			
 		>
 			<div>
 				<Link className="navbar-brand" to="/">

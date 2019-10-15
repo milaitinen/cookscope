@@ -10,3 +10,8 @@
 	border: white;
 	color: #413938;
 }
+
+.sticky-offset {
+	top: 90px;
+	position: fixed;
+}
